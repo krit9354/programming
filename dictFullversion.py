@@ -2,7 +2,7 @@ import csv
 dict = {}
 add = ""
 mean= ""
-print("-----Dictionary-----")
+print("-----dictionary-----")
 print("1.add word")
 print("2.dictionary")
 

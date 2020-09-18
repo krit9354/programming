@@ -2,6 +2,7 @@ dic1 = {"mom":"แม่","dad":"พ่อ","baby":"เด็ก"}
 add=""
 mean=""
 sellect=""
+print("-----dictionary-----")
 print("1.add word")
 print("2.dictionary")
 mode=input("mode :")
