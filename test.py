@@ -1,7 +1,8 @@
 import csv
 
-with open('employee_file.csv', mode='w',encoding='utf-8') as employee_file:
-    employee_writer = csv.writer(employee_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
-    employee_writer.writerow(['John Smith', 'Accounting', 'November'])
-    employee_writer.writerow(['Erica Meyers', 'IT', 'March'])
+add = input("word to add :")
+mean = input("mean of word:")
+with open('demo.csv', mode='a',newline="" ,encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow([add,mean])
