@@ -1,8 +1,10 @@
-import csv
+import time
+count=0
 
-
-add = input("word to add :")
-mean = input("mean of word:")
-with open('demo.csv', mode='a',newline="" ,encoding='utf-8') as file:
-        writer = csv.writer(file)
-        writer.writerow([add,mean])
+def c():
+    name = "audio"+str(count)
+    print(name)
+while True:
+    count+=1
+    c()
+    time.sleep(2)

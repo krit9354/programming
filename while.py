@@ -1,4 +1,6 @@
-y=[1,2,3,4]
+import random
+y=
+x=random.randint(0,20)
 
 
 while y!=10:
